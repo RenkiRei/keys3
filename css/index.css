@@ -1,0 +1,95 @@
+/* Сбрасываем стили для html и body */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding-top: 40px;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.container-center{
+    width: 600px;
+    height: auto;
+}
+
+.container-page {
+    width: 100%;
+    height: 35px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.btn-page {
+    border: 1px solid silver;
+    width: auto;
+    height: 100%;
+    float: left;
+    padding: 0px 15px;
+    color: #000;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+}
+/* Контейнер для всех задач */
+.task-container {
+    width: 100%;
+    height: auto;
+}
+
+/* Оформление каждой задачи */
+.task {
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Заголовок задачи */
+.task-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Информация о задаче (срок выполнения, срок создания) */
+.task-info {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+/* Кнопки для задачи */
+.task-buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Общие стили для кнопок */
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Кнопка изменить */
+.btn-edit {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Кнопка удалить */
+.btn-delete {
+    background-color: #f44336;
+    color: white;
+}

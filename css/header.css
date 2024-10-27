@@ -1,0 +1,40 @@
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: black;
+    padding: 0 20px;
+    position: fixed;
+    z-index: 10;
+    top: 0px;
+    left: 0px;
+    box-sizing: border-box;
+}
+
+/* Название сайта */
+.site-name {
+    color: white !important;
+    font-size: 15px;
+}
+
+.site-name a {
+  color: white;
+}
+
+/* Блок справа */
+.auth {
+    display: flex;
+    float: right;
+}
+
+/* Войти и Регистрация */
+.auth div {
+    color: white;
+    margin-left: 20px;
+    cursor: pointer;
+    width: auto;
+    font-size: 15px;
+    float: left;
+}
